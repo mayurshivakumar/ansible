@@ -1,12 +1,12 @@
 ---
 - hosts: all
-  remote_user: camronlevanger
+  remote_user: mayur.shivakumar
   sudo: yes
   vars:
-    home_user: camronlevanger
+    home_user: mayur.shivakumar
     workspace: /home/{{ home_user }}/Documents
     git_name: Camron Levanger
-    git_email: clevanger@insidesales.com
+    git_email: mayur.shivakumar@insidesales.com
 
   tasks:
     - name: Update APT package cache
