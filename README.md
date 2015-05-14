@@ -7,6 +7,8 @@ Currently just a work in progress. Soon will be able to spin up my default Ubunt
 
 How To Run
 ----------
+@ Create your ssh key first and replace it with  id_rsa.pub
+
 From the root directory:
 `ansible-playbook -i hosts playbooks/bootstrap.yml -f 10 -K`
 
